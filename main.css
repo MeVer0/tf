@@ -52,20 +52,30 @@ header ul .sign_in:hover a {
     flex-direction: column;
     font-size: 32px;
     justify-content: center;
+<<<<<<< HEAD
     max-width: 585px;
 
+=======
+    max-width: (1170/2)px;
+>>>>>>> origin/main
 }
 .desc-text .main-text{
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     font-family: 'Oswald', sans-serif;
+=======
+>>>>>>> origin/main
 }
 .desc-text ul {
     list-style-type: none;
     font-size: 28px;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     font-family: 'Raleway', sans-serif;
+=======
+>>>>>>> origin/main
 }
 .desc-text .secondary_text li:before {
     content: "\2713";
@@ -73,20 +83,31 @@ header ul .sign_in:hover a {
 }
 .desc-text .button a {
     text-decoration: none;
+<<<<<<< HEAD
     font-family: 'Oswald', sans-serif;
+=======
+>>>>>>> origin/main
     color:rgb(255, 255, 255);
     border: 1px solid #391b8b;
     background-color: #391b8b;
     padding: 6px 25px;
     border-radius: 5px;
     margin: 50px auto;
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
 }
 .desc-text .button a:hover{
     background-color: #352c4e;
     transition: 0.1s linear;
 }
 .desc-img{
+<<<<<<< HEAD
     max-width: 585px;
+=======
+    max-width: (1170/2)px;
+>>>>>>> origin/main
 }
 .desc-img img{
     width: 400px;
@@ -94,7 +115,10 @@ header ul .sign_in:hover a {
 }
 .adv_title {
     text-align: center;
+<<<<<<< HEAD
     font-family: 'Oswald', sans-serif;
+=======
+>>>>>>> origin/main
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -104,7 +128,10 @@ header ul .sign_in:hover a {
     text-align: center;
 }
 .advantage {
+<<<<<<< HEAD
     font-family: 'Oswald', sans-serif;
+=======
+>>>>>>> origin/main
     width: 50%;
     box-sizing: border-box;
     padding: 10px;
@@ -119,7 +146,10 @@ header ul .sign_in:hover a {
 }
 .int_projects_title{
     text-align: center;
+<<<<<<< HEAD
     font-family: 'Oswald', sans-serif;
+=======
+>>>>>>> origin/main
 }
 .int_projects{
     display: flex;
@@ -145,11 +175,17 @@ header ul .sign_in:hover a {
 }
 .po_nickname{
     margin-left: 20px;
+<<<<<<< HEAD
     font-family: 'Oswald', sans-serif;
 }
 .project_desc {
     text-align: left;
     font-family: 'Cormorant+Garamond:ital,wght@1,500', serif;
+=======
+}
+.project_desc {
+    text-align: left;
+>>>>>>> origin/main
 }
 .border_line{
     border: 1px solid #391b8b;
