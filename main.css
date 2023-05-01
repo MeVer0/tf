@@ -1,0 +1,183 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+.logo {
+    margin-left: 100px;
+}
+header img{
+    width: 35px;
+    height: 35px;
+}
+header ul{
+    list-style: none;
+    margin-right: 100px;
+}
+header ul li {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+}
+header ul .sign_in {
+    background-color: #8b7e87;
+    border-radius: 5px;
+}
+header a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+/* Красит фон кнопки при наведении */
+header ul .sign_in:hover {
+    background-color: #625c6d;
+    color: rgb(255, 255, 255);
+}
+/* Красит слова при наведении */
+header ul .sign_in:hover a {
+    color: rgb(255, 255, 255);
+}
+.wrap {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.desc{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.desc-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    justify-content: center;
+    max-width: 585px;
+
+}
+.desc-text .main-text{
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+.desc-text ul {
+    list-style-type: none;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.desc-text .secondary_text li:before {
+    content: "\2713";
+    color: green;
+}
+.desc-text .button a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color:rgb(255, 255, 255);
+    border: 1px solid #391b8b;
+    background-color: #391b8b;
+    padding: 6px 25px;
+    border-radius: 5px;
+    margin: 50px auto;
+}
+.desc-text .button a:hover{
+    background-color: #352c4e;
+    transition: 0.1s linear;
+}
+.desc-img{
+    max-width: 585px;
+}
+.desc-img img{
+    width: 400px;
+    height: 465px;
+}
+.adv_title {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.advantages{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.advantage {
+    font-family: 'Oswald', sans-serif;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.adv_logo{
+    display: flex;
+    justify-content: center;
+}
+.adv_logo img{
+    width: 112px;
+    height: 112px;
+}
+.int_projects_title{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.int_projects{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.project{
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.po_info{
+    display: flex;
+    align-items: center;
+}
+.po_logo img{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: 13px;
+}
+.po_nickname{
+    margin-left: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.project_desc {
+    text-align: left;
+    font-family: 'Cormorant+Garamond:ital,wght@1,500', serif;
+}
+.border_line{
+    border: 1px solid #391b8b;
+    opacity: 0.7;
+}
+.stack_info ul {
+    column-count: 2; /* Set the number of columns to 2 */
+    max-height: 100px; /* Set a maximum height for the container */
+    overflow: hidden;
+}
+.stack_info li {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.follow {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.sn_icons {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
