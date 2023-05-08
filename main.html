@@ -15,12 +15,12 @@
 
     <header>
         <div class="logo">
-            <a href="main.html"><img src="images/eye.jpg" alt="Logo"></a>
+            <a href="main.html"><img src="img/tf-logo.svg" alt="Logo"></a>
         </div>
         <div class="nav">
             <ul>
-                <li><a href="#">Регистрация</a></li>
-                <li class="sign_in"><a href="#">Вход</a></li>
+                <li class="nav-button"><a href="#" role="button">Регистрация</a></li>
+                <li class="nav-button"><a href="#" role="button">Вход</a></li>
             </ul>
         </div>
     </header>
@@ -28,17 +28,14 @@
     <!-- Основное описание -->
 
     <div class="wrap desc">
-        <div class="desc-text">
-            <h2 class="desc-text main-text">Есть идея, но нет скилла, чтобы реализовать ее? Найди тиммейта!</h2>
-            <ul class="desc-text secondary_text">
-                <li>Зарегестрируйся на сайте</li>
-                <li>Укажи кто ты, исполнитель или владелец идеи</li>
-                <li>Отфильтруй интересных тебе людей или проекты</li>
-                <li>Свяжись с *хто он* через сообщения на сайте или указанные реквизиты</li>
-            </ul>
-            <ul>
-                <li class="desc-text button"><a href="#">ИСКАТЬ</a></li>
-            </ul>
+        <div>
+            <h2 class="desc-text title">Есть идея, но нет скилла, чтобы реализовать ее?<wbr>Найди тиммейта!</h2>
+            <h3 class="desc-text main">Регистрируйся у нас, чтобы начать искать сокомандников к себе в пет проекты!</h3>
+            <div class="desc start-button">
+                <span class="desc-text button">
+                    <a href="#" role="button">Искать</a>
+                </span>
+            </div>
         </div>
         <div class="desc-img">
             <img src="img/programist.jpg" alt="main photo">
@@ -47,7 +44,7 @@
 
     <!-- Наши преимущества -->
 
-    <div class="wrap">
+    <div class="wrap adv">
         <h2 class="adv_title">Почему этот сервис супер-класс?</h2>
         <div class="advantages">
             <div class="advantage">
@@ -71,10 +68,15 @@
 
     <!-- Интересные проекты -->
 
-    <div class="wrap">
+    <div class="wrap int_projects">
         <h2 class="int_projects_title">Интересные проекты</h2>
         <div class="int_projects">
+            <button class="int_projects_control prev">
+                <img src="img/left_arrow.png" width="75px" height="75px">
+                <a  href="#" role="button"></a>
+            </button>
             <div class="project">
+                <a href="#"></a>
                 <div class="po_info">
                     <span class="po_logo"><img src="img/po_logo.png" alt="Logo"></span>
                     <h3 class="po_nickname">San9 eto BoBer</h3>
@@ -96,6 +98,7 @@
                 </div>
             </div>
             <div class="project">
+                <a href="#"></a>
                 <div class="po_info">
                     <span class="po_logo"><img src="img/po_logo.png" alt="Logo"></span>
                     <h3 class="po_nickname">San9 eto BoBer</h3>
@@ -117,6 +120,7 @@
                 </div>
             </div>
             <div class="project">
+                <a href="#"></a>
                 <div class="po_info">
                     <span class="po_logo"><img src="img/po_logo.png" alt="Logo"></span>
                     <h3 class="po_nickname">San9 eto BoBer</h3>
@@ -137,6 +141,10 @@
                     </ul>
                 </div>
             </div>
+            <button class="int_projects_control next">
+                <img src="img/right_arrow.png" width="75px" height="75px">
+                <a  href="#" role="button"></a>
+            </button>
         </div>
     </div>
 

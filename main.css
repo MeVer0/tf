@@ -8,8 +8,8 @@ header {
     margin-left: 100px;
 }
 header img{
-    width: 35px;
-    height: 35px;
+    width: 150px;
+    height: 150px;
 }
 header ul{
     list-style: none;
@@ -20,66 +20,73 @@ header ul li {
     margin: 15px;
     padding: 10px;
 }
-header ul .sign_in {
-    background-color: #8b7e87;
-    border-radius: 5px;
+
+header .nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 35px;
 }
+
 header a {
     text-decoration: none;
     color:rgb(0, 0, 0);
 }
 /* Красит фон кнопки при наведении */
-header ul .sign_in:hover {
-    background-color: #625c6d;
-    color: rgb(255, 255, 255);
+.nav-button :hover {
+    background-color: #e4e3e9;
+    border-radius: 5px;
+    padding: 10px 35px;
+    opacity: 0.9;
+    transition: 0.1s linear;
 }
-/* Красит слова при наведении */
-header ul .sign_in:hover a {
-    color: rgb(255, 255, 255);
-}
+
 .wrap {
-    max-width: 1170px;
+    max-width: 1050px;
     margin-left: auto;
     margin-right: auto;
 }
-.desc{
+
+.wrap.desc{
+    margin-bottom: 100px;
     display: flex;
     align-items: center;
     flex-direction: row;
 }
-.desc-text{
-    display: flex;
-    flex-direction: column;
-    font-size: 32px;
-    justify-content: center;
-    max-width: 585px;
 
-}
-.desc-text .main-text{
+.desc-text.title{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     font-family: 'Oswald', sans-serif;
+    font-size: 44px;
 }
-.desc-text ul {
+
+.desc-text.main{
     list-style-type: none;
-    font-size: 28px;
+    font-weight: normal;
+    font-size: 20px;
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
-.desc-text .secondary_text li:before {
-    content: "\2713";
-    color: green;
+
+.desc.start-button{
+    display: flex;
+    justify-content: start;
+    margin-top: 50px;
+
 }
-.desc-text .button a {
+.desc .start-button a {
     text-decoration: none;
+    font-size: 20px;
     font-family: 'Oswald', sans-serif;
     color:rgb(255, 255, 255);
     border: 1px solid #391b8b;
     background-color: #391b8b;
-    padding: 6px 25px;
+    padding: 10px 35px;
     border-radius: 5px;
-    margin: 50px auto;
+    margin: 50px 0;
+
 }
 .desc-text .button a:hover{
     background-color: #352c4e;
@@ -89,21 +96,37 @@ header ul .sign_in:hover a {
     max-width: 585px;
 }
 .desc-img img{
+    margin-left: 30px;
     width: 400px;
     height: 465px;
 }
+
+/**********************  Наши преимущества  *********************/
+
+.wrap.adv{
+    max-width: none;
+    width: 100%;
+    background-color: #5c59c2;
+}
+
 .adv_title {
+    font-size: 36px;
+    color: #fff;
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    padding-top: 50px;
 }
 .advantages{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
 }
 .advantage {
+    color: #fff;
+    font-size: 18px;
     font-family: 'Oswald', sans-serif;
     width: 50%;
     box-sizing: border-box;
@@ -117,20 +140,44 @@ header ul .sign_in:hover a {
     width: 112px;
     height: 112px;
 }
+
+
+/**********************  Интересные проекты  *********************/
+.wrap.int_projects{
+    max-width: 1200px;
+}
+
 .int_projects_title{
     text-align: center;
+    font-size: 36px;
     font-family: 'Oswald', sans-serif;
+    margin-bottom: 50px;
 }
 .int_projects{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
+    overflow: hidden;
+
 }
 .project{
-    width: 33.33%;
+    background-color: #e4e3e9;
+    width: 28%;
     box-sizing: border-box;
+    border-radius: 5px;
     padding: 10px;
+    margin: 10px;
+    transition: transform 0.5s ease;
+    max-width: 308px;
+    max-height: 370px;
 }
+
+.int_projects_control.slide-button{
+    display: flex;
+    align-items: center;
+}
+
 .po_info{
     display: flex;
     align-items: center;
@@ -166,6 +213,9 @@ header ul .sign_in:hover a {
     font-size: 16px;
     line-height: 20px;
 }
+
+
+
 .footer {
     display: flex;
     flex-wrap: wrap;
@@ -175,6 +225,7 @@ header ul .sign_in:hover a {
     width: 50%;
     box-sizing: border-box;
     padding: 10px;
+    margin-top: 120px;
 }
 .sn_icons {
     width: 50%;
